@@ -21,8 +21,6 @@
 		6AAAA62A206964C000878595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AAAA628206964C000878595 /* Main.storyboard */; };
 		6AAAA62C206964C000878595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAAA62B206964C000878595 /* Assets.xcassets */; };
 		6AAAA62F206964C000878595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AAAA62D206964C000878595 /* LaunchScreen.storyboard */; };
-		6AAAA63A206964C000878595 /* air_hockeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAAA639206964C000878595 /* air_hockeyTests.swift */; };
-		6AAAA645206964C000878595 /* air_hockeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAAA644206964C000878595 /* air_hockeyUITests.swift */; };
 		6AF6C9D0206C29B000C462C9 /* AHBarrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6C9CF206C29B000C462C9 /* AHBarrier.swift */; };
 		6AF6C9D2206C301B00C462C9 /* AHGlowBarrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6C9D1206C301B00C462C9 /* AHGlowBarrier.swift */; };
 		6AF6C9D4206C39EB00C462C9 /* AHHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6C9D3206C39EB00C462C9 /* AHHandle.swift */; };
@@ -70,11 +68,7 @@
 		6AAAA62E206964C000878595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AAAA630206964C000878595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AAAA635206964C000878595 /* air_hockeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = air_hockeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AAAA639206964C000878595 /* air_hockeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = air_hockeyTests.swift; sourceTree = "<group>"; };
-		6AAAA63B206964C000878595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AAAA640206964C000878595 /* air_hockeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = air_hockeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AAAA644206964C000878595 /* air_hockeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = air_hockeyUITests.swift; sourceTree = "<group>"; };
-		6AAAA646206964C000878595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AF6C9CF206C29B000C462C9 /* AHBarrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHBarrier.swift; sourceTree = "<group>"; };
 		6AF6C9D1206C301B00C462C9 /* AHGlowBarrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHGlowBarrier.swift; sourceTree = "<group>"; };
 		6AF6C9D3206C39EB00C462C9 /* AHHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHHandle.swift; sourceTree = "<group>"; };
@@ -168,8 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				6AAAA61D206964C000878595 /* air_hockey */,
-				6AAAA638206964C000878595 /* air_hockeyTests */,
-				6AAAA643206964C000878595 /* air_hockeyUITests */,
 				6AAAA61C206964C000878595 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -202,24 +194,6 @@
 				6AAAA630206964C000878595 /* Info.plist */,
 			);
 			path = air_hockey;
-			sourceTree = "<group>";
-		};
-		6AAAA638206964C000878595 /* air_hockeyTests */ = {
-			isa = PBXGroup;
-			children = (
-				6AAAA639206964C000878595 /* air_hockeyTests.swift */,
-				6AAAA63B206964C000878595 /* Info.plist */,
-			);
-			path = air_hockeyTests;
-			sourceTree = "<group>";
-		};
-		6AAAA643206964C000878595 /* air_hockeyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6AAAA644206964C000878595 /* air_hockeyUITests.swift */,
-				6AAAA646206964C000878595 /* Info.plist */,
-			);
-			path = air_hockeyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AAAA63A206964C000878595 /* air_hockeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AAAA645206964C000878595 /* air_hockeyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
